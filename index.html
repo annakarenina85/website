@@ -1,0 +1,80 @@
+<html>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width,initial-scale=1'>
+<link rel='stylesheet' href='style.css'>
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+
+</head>
+<body>
+<header>
+<img src='images/logo.png' height='100'>
+
+<nav id='menu'>
+<ul>
+<li><a href='page1.html'>Menu</a>
+<ul>
+<li><a href=''>Menu</a></li>
+<li><a href=''>Menu</a></li>
+<li><a href=''>Menu</a></li>
+</ul></li>
+<li><a href=''>Menu</a>
+
+</li>
+<li><a href=''>Menu</a></li>
+</ul>
+</nav>
+
+
+</header>
+<main>
+
+<div class="carousele">
+    <div><img src='images/slide1.jfif'></div>
+    <div><img src='images/slide2.jpg'></div>
+    <div><img src='images/slide3.jpeg'></div>
+  </div>
+  
+  
+<div class='block'>
+<img src='images/foto1.jpeg'>
+<div>
+<h1>Заголовок</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porta nibh venenatis cras sed felis eget velit aliquet. Sed tempus urna et pharetra pharetra. Feugiat in fermentum posuere urna nec tincidunt. 
+Egestas erat imperdiet sed euismod nisi porta.</p>
+<a href='https://loremipsum.io/ru/generator/?n=5&t=s'>Buy</a>
+
+</div>
+</div>
+</main>
+<footer>
+<form>
+<p>Введите имя</p>
+<input placeholder='Name' type='text' size='35'>
+<p>Введите сообщение</p>
+<textarea placeholder='Message' cols='35' rows='10'>
+
+</textarea>
+<input type='button' value='Отправить'>
+</form>
+</footer>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.carousele').slick({
+        autoplay: true,
+        autoplaySpeed: 2000,
+		dots: true,
+		arrows: true,
+      });
+    });
+  </script>
+</body>
+</html>
